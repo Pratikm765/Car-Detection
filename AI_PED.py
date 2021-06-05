@@ -1,7 +1,7 @@
 import cv2
 
 def CarDetection():
-    video=cv2.VideoCapture("testVideo.mp4")
+    video=cv2.VideoCapture("testVideo_Trim2.mp4")
     car_tracker = cv2.CascadeClassifier('cars_detector.xml')
 
     while True:
